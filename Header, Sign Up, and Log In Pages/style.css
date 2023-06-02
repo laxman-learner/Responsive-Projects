@@ -1,0 +1,34 @@
+body {
+  background-color: lightcyan;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  text-align: justify;
+}
+.header-wrapper {
+  background-color: red;
+  color: white;
+  position: sticky;
+  top: 0px;
+}
+nav ul li a {
+  margin: 0 5px;
+}
+nav ul li a:hover {
+  background-color: aqua;
+}
+.social {
+  padding-top: 20px;
+  padding-right: 0px;
+  margin-right: 20px;
+}
+.social ul {
+  margin: 0;
+}
+.social ul li a {
+  margin: 0 20px;
+  color: white;
+}
+.banner {
+  width: 100%;
+}
+

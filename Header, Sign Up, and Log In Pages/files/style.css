@@ -1,0 +1,70 @@
+body {
+  background-color: lightcyan;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  text-align: justify;
+}
+.header-wrapper {
+  background-color: red;
+  color: white;
+  position: sticky;
+  top: 0px;
+}
+a {
+  text-decoration: none;
+}
+nav ul li a {
+  margin: 0 5px;
+}
+nav ul li a:hover {
+  background-color: aqua;
+}
+.social {
+  padding-top: 20px;
+  padding-right: 0px;
+  margin-right: 20px;
+}
+.social ul {
+  margin: 0;
+}
+.social ul li a {
+  margin: 0 20px;
+  color: white;
+}
+.banner {
+  width: 100%;
+}
+.title {
+  text-decoration: none;
+  /* display: inline-block; */
+  font-size: 4vh;
+  padding: 14px 17px;
+  position: fixed;
+  top: 20vh;
+  left: 100px;
+  text-align: center;
+  vertical-align: center;
+}
+button a {
+  color: white;
+  font-size: 25px;
+}
+.title h1 {
+  color: white;
+  font-weight: bold;
+}
+.title p {
+  color: blueviolet;
+}
+.one {
+  background-color: blue;
+  height: 500px;
+}
+.two {
+  background-color: green;
+  height: 500px;
+}
+.three {
+  background-color: aqua;
+  height: 500px;
+}

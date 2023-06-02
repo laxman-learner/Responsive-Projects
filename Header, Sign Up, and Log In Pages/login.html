@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0 shrink-to-fit=no"
+    />
+    <title>Login Page</title>
+    <link rel="stylesheet" href="./files/bootstrap.css" />
+    <link rel="stylesheet" href="./files/login.css" />
+  </head>
+  <body>
+    <section class="wrapper">
+      <div class="container">
+        <div
+          class="col-sm-8 offset-sm-2 col-lg-6 offset-lg-3 col-xl-4 offset-xl-4"
+        >
+          <form action="" class="rounded bg-white shadow p-4">
+            <h3 class="text-dark fw-bolder fs-4 mb-2">Sign in</h3>
+            <div class="fw-normal text-muted mb-4">
+              Are you new user? <br />
+              <a
+                href="./signup.html"
+                class="text-primary fw-bold text-decoration-none"
+                >Create an Account</a
+              >
+            </div>
+            <div class="form-floating mb-3">
+              <input type="email" class="form-control" id="floatingInput" />
+              <label for="floatingInput">Email Address</label>
+            </div>
+            <div class="form-floating">
+              <input
+                type="password"
+                class="form-control"
+                id="floatingPassword"
+              />
+              <label for="floatingPassword">Password</label>
+            </div>
+            <div class="mt-2 text-center">
+              <a
+                href="./forget-pw.html"
+                class="text-primary fw-bold text-decoration-none"
+                >Forget Password?</a
+              >
+            </div>
+            <button type="submit" class="btn btn-primary w-100 my-3 submit_btn">
+              Continue
+            </button>
+            <div class="text-center text-muted text-uppercase">or</div>
+            <a href="" class="btn btn-light login_with w-100 mb-1">
+              <img
+                src="./Images/google-icon.svg"
+                class="img-fluid me-2"
+                alt=""
+              />Continue with Google
+            </a>
+
+            <a href="" class="btn btn-light login_with w-100 mb-1">
+              <img
+                src="./Images/facebook-icon.svg"
+                class="img-fluid me-2"
+              />Continue with Facebook
+            </a>
+            <a href="" class="btn btn-light login_with w-100 mb-1">
+              <img
+                src="./Images/linkedin-icon.svg"
+                class="img-fluid me-2"
+                alt=""
+              />Continue with Linkedin
+            </a>
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
