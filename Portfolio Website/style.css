@@ -34,6 +34,7 @@
 .main {
   background-color: #00c4ff;
   width: 90vw;
+  padding: 20px;
 }
 .infoContainer {
   /* background-color: yellow; */
@@ -92,11 +93,102 @@
 }
 
 .contactform h1 {
-  text-align: center;
   font-size: 35px;
+  padding: 0 0 20px 30px;
 }
 .contactform form div {
-  padding: 20px;
+  padding: 10px 30px;
   font-size: 25px;
 }
+
+.contactform form div p {
+  color: blue;
+}
+.contactform form div input {
+  padding: 5px;
+  font-size: 20px;
+  color: green;
+  font-weight: 700;
+}
+.contactform form div input.emailAdd {
+  width: 350px;
+  margin-top: 10px;
+}
+
+.contactform form div input.phoneNo {
+  width: 120px;
+  margin-top: 10px;
+}
+
+.contactform form div textarea.query {
+  margin-top: 10px;
+  padding: 5px;
+  font-size: 20px;
+  color: green;
+}
+.contactform form div input.check {
+  transform: scale(1.65);
+  height: 25px;
+}
 /* body has default margin and unordered list has default padding */
+
+/* styling blog page */
+
+.blogItem {
+  margin: 20px;
+}
+.blogContainer h1 {
+  margin: 23px;
+}
+.blogItem p {
+  text-align: justify;
+  padding: 10px;
+}
+
+/* styling about page */
+.intro h2 {
+  margin: 10px;
+}
+
+.intro p {
+  text-align: justify;
+  margin: 12px;
+}
+.skillContainer {
+  padding: 13px;
+}
+.skill {
+  width: 700px;
+  height: 5px;
+  background-color: red;
+  margin-left: 10px;
+}
+.skillItem {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+}
+.eighty {
+  width: 560px;
+  background-color: blue;
+}
+.seventy {
+  width: 490px;
+  background-color: aqua;
+}
+.sixty-five {
+  width: 455px;
+  background-color: orangered;
+}
+.sixty {
+  width: 420px;
+  background-color: green;
+}
+.fifty {
+  width: 350px;
+  background-color: chartreuse;
+}
+.fourty {
+  width: 280px;
+  background-color: fuchsia;
+}
